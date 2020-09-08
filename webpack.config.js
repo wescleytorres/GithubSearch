@@ -2,7 +2,6 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  baseUrl: '/GithubSearch',
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
